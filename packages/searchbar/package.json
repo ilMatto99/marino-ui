@@ -1,5 +1,5 @@
 {
-  "name": "@marino-ui/serchbar",
+  "name": "@marino-ui/searchbar",
   "version": "0.0.1",
   "main": "./index.js",
   "types": "./index.d.ts",

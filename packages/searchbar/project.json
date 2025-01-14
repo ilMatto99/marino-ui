@@ -1,0 +1,9 @@
+{
+  "name": "searchbar",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/searchbar/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project searchbar --web",
+  "targets": {}
+}

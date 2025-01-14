@@ -19,7 +19,7 @@
       "@marino-ui/footer": ["packages/footer/src/index.ts"],
       "@marino-ui/grid": ["packages/grid/src/index.ts"],
       "@marino-ui/header": ["packages/header/src/index.ts"],
-      "@marino-ui/serchbar": ["packages/serchbar/src/index.ts"]
+      "@marino-ui/searchbar": ["packages/searchbar/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

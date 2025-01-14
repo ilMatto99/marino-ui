@@ -1,5 +1,5 @@
 export default {
-  displayName: 'serchbar',
+  displayName: 'searchbar',
   preset: '../../jest.preset.js',
   transform: {
     '^.+\\.[tj]sx?$': [
@@ -13,5 +13,5 @@ export default {
     ],
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/packages/serchbar',
+  coverageDirectory: '../../coverage/packages/searchbar',
 };
