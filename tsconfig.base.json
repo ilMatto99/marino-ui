@@ -18,7 +18,8 @@
       "@marino-ui/button": ["packages/button/src/index.ts"],
       "@marino-ui/footer": ["packages/footer/src/index.ts"],
       "@marino-ui/grid": ["packages/grid/src/index.ts"],
-      "@marino-ui/header": ["packages/header/src/index.ts"]
+      "@marino-ui/header": ["packages/header/src/index.ts"],
+      "@marino-ui/serchbar": ["packages/serchbar/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
