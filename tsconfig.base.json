@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@marino-ui/button": ["packeges/button/src/index.ts"]
+      "@marino-ui/button": ["packeges/button/src/index.ts"],
+      "@marino-ui/grid": ["packeges/grid/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
