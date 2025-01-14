@@ -8,7 +8,7 @@ import { nxCopyAssetsPlugin } from '@nx/vite/plugins/nx-copy-assets.plugin';
 
 export default defineConfig({
   root: __dirname,
-  cacheDir: '../../node_modules/.vite/packeges/button',
+  cacheDir: '../../node_modules/.vite/packages/button',
 
   plugins: [
     react(),
@@ -28,7 +28,7 @@ export default defineConfig({
   // Configuration for building your library.
   // See: https://vitejs.dev/guide/build.html#library-mode
   build: {
-    outDir: '../../dist/packeges/button',
+    outDir: '../../dist/packages/button',
     emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {

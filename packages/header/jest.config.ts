@@ -1,5 +1,5 @@
 export default {
-  displayName: 'button',
+  displayName: 'header',
   preset: '../../jest.preset.js',
   transform: {
     '^.+\\.[tj]sx?$': [
@@ -13,5 +13,5 @@ export default {
     ],
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/packages/button',
+  coverageDirectory: '../../coverage/packages/header',
 };
