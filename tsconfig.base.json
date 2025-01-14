@@ -17,6 +17,7 @@
     "paths": {
       "@marino-ui/button": ["packages/button/src/index.ts"],
       "@marino-ui/footer": ["packages/footer/src/index.ts"],
+      "@marino-ui/form": ["packages/form/src/index.ts"],
       "@marino-ui/grid": ["packages/grid/src/index.ts"],
       "@marino-ui/header": ["packages/header/src/index.ts"],
       "@marino-ui/searchbar": ["packages/searchbar/src/index.ts"]
