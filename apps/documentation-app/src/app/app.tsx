@@ -6,6 +6,7 @@ import ComponentsPage from '../pages/ComponentsPage';
 import Layout from '../components/Layout';
 import DocsPage from '../pages/DocsPage';
 import { Footer } from '@marino-ui/footer';
+import Resources from '../pages/ResourcesPage';
 
 function App() {
   return (
@@ -26,6 +27,14 @@ function App() {
           element={
             <Layout>
               <DocsPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/resources"
+          element={
+            <Layout>
+              <Resources />
             </Layout>
           }
         />

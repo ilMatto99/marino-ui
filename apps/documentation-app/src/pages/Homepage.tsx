@@ -34,7 +34,7 @@ const Homepage = () => {
           <Link to="/components">
             <button className="px-6 py-2 bg-cyan-300 text-black rounded-2xl hover:bg-cyan-200 transition">
               🚀Get Started!
-            </button>
+            </ button>
           </Link>
         </div>
       </div>
