@@ -21,9 +21,11 @@ const DocsPage = () => {
             <pre className="bg-gray-900 text-cyan-300 p-4 rounded mt-2">
               <code>npm install @marino-ui/core</code>
             </pre>
-            <p className="text-gray-300 mt-4">Then import components as needed:</p>
+            <p className="text-gray-300 mt-4">
+              Then import components as needed:
+            </p>
             <pre className="bg-gray-900 text-cyan-300 p-4 rounded mt-2">
-              <code>import  Button  from '@marino-ui/core;</code>
+              <code>import Button from '@marino-ui/core;</code>
             </pre>
           </div>
         );
@@ -32,10 +34,13 @@ const DocsPage = () => {
           <div>
             <h2 className="text-2xl font-bold mb-4">Components</h2>
             <p className="text-gray-300">
-              Our library offers a wide range of customizable components like Buttons, Forms, and more.
+              Our library offers a wide range of customizable components like
+              Buttons, Forms, and more.
             </p>
             <Link to="/components">
-              <a className="text-cyan-300 underline mt-4 block">View all components</a>
+              <a className="text-cyan-300 underline mt-4 block">
+                View all components
+              </a>
             </Link>
           </div>
         );
@@ -44,7 +49,8 @@ const DocsPage = () => {
           <div>
             <h2 className="text-2xl font-bold mb-4">Styling</h2>
             <p className="text-gray-300">
-              Customize components using Tailwind CSS utility classes or extend default styles.
+              Customize components using Tailwind CSS utility classes or extend
+              default styles.
             </p>
             <pre className="bg-gray-900 text-cyan-300 p-4 rounded mt-2">
               <code>className="bg-blue-500 hover:bg-blue-700 text-white"</code>
@@ -80,6 +86,13 @@ const DocsPage = () => {
         </nav>
         <div className="md:col-span-3 bg-gray-800 p-6 rounded-xl shadow-lg">
           {renderContent()}
+        </div>
+        <div className="mt-8">
+          <Link to="/">
+            <button className="px-6 py-2 bg-cyan-300 text-black rounded-2xl hover:bg-cyan-200 transition">
+              ⬅ Back to Homepage
+            </button>
+          </Link>
         </div>
       </div>
     </div>

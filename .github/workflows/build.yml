@@ -1,0 +1,33 @@
+name: Build after Push
+
+
+on:
+    push:
+      branches:
+        - master  # Trigger automatico dopo una push su master
+    workflow_dispatch:  # Possibilità di attivare il workflow manualmente
+      inputs:
+        build_type:
+          description: "Tipo di build (esempio: fast-build, full-build)"
+          required: true
+          default: "fast-build"
+  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  
+  
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm install --force
+
+      - name: Run Build
+        run: npm run build
